@@ -1,0 +1,6 @@
+Microsoft Corporation
+FileDescription "Windows Aero Visual Style Resource Dll"
+FileVersion "6.0.6002.18005 (lh_sp2rtm.090410-1830)"
+InternalName "aero.msstyles"
+OriginalFilename "aero.msstyles"
+ProductVersion "6.0.6002.18005"
