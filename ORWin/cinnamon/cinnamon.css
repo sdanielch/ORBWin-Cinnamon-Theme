@@ -1528,7 +1528,7 @@ StScrollBar StButton#vhandle:hover {
 */
 .window-list-item-box {
 	background: transparent;	border-image:url("resources/A.png") ;
-	transition-duration: 200;	color: #FFF; width: 134px;
+	transition-duration: 200;	color: #FFF; max-width: 134px;
 
 }
 .window-list-item-box:active {
@@ -1552,15 +1552,15 @@ StScrollBar StButton#vhandle:hover {
         border-image:url("resources/735.png");
 }
 /* Primer item del menú (MENU) */
-.applet-box:first-child {
+#panelLeft .applet-box:first-child {
 	background: url("resources/OBB1.png");
 	width: 50px; transition-duration: 300;
 	color: rgba(255,0,0,1) !important;
 }
-.applet-box:first-child:hover {
+#panelLeft .applet-box:first-child:hover {
 	background: url("resources/OBB2.png");
 }
-.applet-box:first-child:active {
+#panelLeft .applet-box:first-child:active {
 	background: url("resources/OBB3.png");
 }
 
