@@ -1555,7 +1555,7 @@ StScrollBar StButton#vhandle:hover {
 #panelLeft .applet-box:first-child {
 	background: url("resources/OBB1.png");
 	width: 50px; transition-duration: 300;
-	color: rgba(255,0,0,1) !important;
+	color: rgba(255,0,0,0) !important;
 }
 #panelLeft .applet-box:first-child:hover {
 	background: url("resources/OBB2.png");
