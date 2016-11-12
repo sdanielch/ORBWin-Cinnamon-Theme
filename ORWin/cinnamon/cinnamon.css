@@ -1610,7 +1610,7 @@ border-right: 1px #0000FF solid;
 .menu-applications-inner-box {
 	padding-top: 10px;	padding-left: 10px;
 	padding-right: 10px;	padding-bottom: 0px;
-	background: #FFF; color: #181818;
+	background: rgb(235,235,235); color: #181818;
 	border-radius: 4px 8px 8px 4px;
 
 }
@@ -1723,7 +1723,8 @@ background: #000;
 	width: calc(100% - 0px);
 	height: 0px;
 	transition-duration: 300;
-	position: absolute; top:0;left:0;right:0;bottom:0;
+	position: absolute; 
+	top:0;left:0;right:0;bottom:0;
 }
 #menu-search-entry:focus,
 #menu-search-entry:hover {
@@ -1743,4 +1744,53 @@ background: #000;
 }
 /* Context menu (at the moment only for favorites) */
 .menu-context-menu {
+}
+
+.popup-menu-content {
+	background: rgba(0,0,0,0.0);
+	border: 0px #F00 solid;
+}
+.menu {
+	background: rgba(0,0,0,0.75) url('aero.png') repeat center;
+	border: 1px rgba(100,100,100,0.4) solid;
+	color: #EFEFEF;
+	border-radius: 8px 8px 2px 2px;
+	box-shadow: 1px 1px 16px 4px #000;
+	  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+
+}
+/* Barras de desplazamiento de los menus */
+StScrollBar {
+	padding: 0px;
+}
+StScrollView.vfade {
+	-st-vfade-offset: 68px;
+}
+StScrollView StScrollBar {
+	min-width: 8px;
+	min-height: 16px;
+}
+
+StScrollBar StBin#trough {
+	background-color: rgba(0,0,0,0);
+	border: 1px solid rgba(80,80,80,0.4);
+	border-radius: 0px;
+}
+StScrollBar StButton#vhandle {
+	background-image: url("scroll-vhandle.svg");
+	background-color: rgba(220,220,220,0.3);
+	border: 1px solid rgba(80,80,80,0.4);
+	border-radius: 0px;
+}
+StScrollBar StButton#hhandle {
+	background-image: url("scroll-hhandle.svg");
+	background-color: rgba(220,220,220,0.3);
+	border: 1px solid rgba(80,80,80,0.4);
+	border-radius: 0px;
+}
+StScrollBar StButton#hhandle:hover,
+StScrollBar StButton#vhandle:hover {
+	background-color: rgba(240,240,240,0.8);
+
 }
