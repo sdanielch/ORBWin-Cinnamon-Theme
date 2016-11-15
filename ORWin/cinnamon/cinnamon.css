@@ -1655,7 +1655,7 @@ border-right: 1px #0000FF solid;
 	padding-top: 7px;
 	padding-left: 7px;
 	padding-right: 7px;
-	padding-bottom: 7px;
+	padding-bottom: 14px;
 	color: #DEDEDE;
 
 }
@@ -1663,7 +1663,7 @@ border-right: 1px #0000FF solid;
 	padding-top: 7px;
 	padding-left: 7px;
 	padding-right: 7px;
-	padding-bottom: 7px;
+	padding-bottom: 14px;
 	color: rgba(255,255,255,0.4);
 	font-style: italic;
 }
@@ -1671,10 +1671,9 @@ border-right: 1px #0000FF solid;
 	padding-top: 7px;
 	padding-left: 7px;
 	padding-right: 7px;
-	padding-bottom: 7px;
+	padding-bottom: 14px;
 	color: #FFF;
 	background:rgb(0, 84, 227);
-	box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.06);
 	border-radius: 4px;
 }
 .menu-category-button-label:ltr {
