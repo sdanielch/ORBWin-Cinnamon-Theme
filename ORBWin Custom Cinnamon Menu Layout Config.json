@@ -1,0 +1,1363 @@
+{
+    "layout": {
+        "type": "layout",
+        "pages": [
+            "page_applet",
+            "page_menu",
+            "page_extras",
+            "page_custom_launchers",
+            "page_appearance"
+        ],
+        "page_applet": {
+            "type": "page",
+            "title": "Applet",
+            "sections": [
+                "section_save_button_full",
+                "section_applet_settings"
+            ]
+        },
+        "page_menu": {
+            "type": "page",
+            "title": "Menu",
+            "sections": [
+                "section_save_button_full",
+                "section_menu_settings",
+                "section_save_button_minimal"
+            ]
+        },
+        "page_extras": {
+            "type": "page",
+            "title": "Extras",
+            "sections": [
+                "section_save_button_full",
+                "section_quit_buttons_settings",
+                "section_save_button_minimal",
+                "section_search_box_settings",
+                "section_save_button_minimal",
+                "section_context_menus_settings",
+                "section_save_button_minimal",
+                "section_recently_used_applications_settings",
+                "section_save_button_minimal"
+            ]
+        },
+        "page_custom_launchers": {
+            "type": "page",
+            "title": "Custom Launchers",
+            "sections": [
+                "section_save_button_full",
+                "section_custom_launchers_000",
+                "section_custom_launchers_000_bis",
+                "section_custom_launchers_001",
+                "section_custom_launchers_002",
+                "section_custom_launchers_003",
+                "section_custom_launchers_004",
+                "section_custom_launchers_005",
+                "section_save_button_minimal",
+                "section_custom_launchers_006",
+                "section_custom_launchers_007",
+                "section_custom_launchers_008",
+                "section_custom_launchers_009",
+                "section_custom_launchers_010",
+                "section_save_button_minimal"
+            ]
+        },
+        "page_appearance": {
+            "type": "page",
+            "title": "Appearance",
+            "sections": [
+                "section_save_button_full",
+                "section_appearance_icon_sizes",
+                "section_appearance_favorites_box",
+                "section_appearance_boxes_padding",
+                "section_save_button_minimal"
+            ]
+        },
+        "section_applet_settings": {
+            "type": "section",
+            "title": "Applet settings",
+            "keys": [
+                "pref_overlay_key",
+                "pref_use_a_custom_icon_for_applet",
+                "pref_custom_icon_for_applet",
+                "pref_custom_label_for_applet",
+                "pref_open_menu_on_hover",
+                "pref_menu_hover_delay"
+            ]
+        },
+        "section_menu_settings": {
+            "type": "section",
+            "title": "Menu settings",
+            "keys": [
+                "pref_display_category_icons",
+                "pref_display_application_icons",
+                "pref_display_fav_box",
+                "pref_show_places",
+                "pref_show_recents_button",
+                "pref_max_recent_files",
+                "pref_enable_autoscroll",
+                "pref_animate_menu",
+                "pref_apps_info_box_alignment_to_the_left",
+                "pref_disable_new_apps_highlighting",
+                "pref_hide_allapps_category",
+                "pref_display_favorites_as_category_menu",
+                "pref_hide_applications_list_scrollbar",
+                "pref_swap_categories_box",
+                "pref_cat_hover_delay",
+                "pref_appinfo_display_method",
+                "pref_privilege_elevator",
+                "pref_terminal_emulator"
+            ]
+        },
+        "section_quit_buttons_settings": {
+            "type": "section",
+            "title": "Quit buttons settings",
+            "keys": [
+                "pref_system_buttons_display",
+                "pref_show_lock_button",
+                "pref_lock_button_custom_icon",
+                "pref_show_logout_button",
+                "pref_logout_button_custom_icon",
+                "pref_show_shutdown_button",
+                "pref_shutdown_button_custom_icon"
+            ]
+        },
+        "section_search_box_settings": {
+            "type": "section",
+            "title": "Search box settings",
+            "keys": [
+                "pref_search_filesystem",
+                "pref_fuzzy_search_enabled",
+                "pref_search_box_position",
+                "pref_autofit_searchbox_width",
+                "pref_custom_width_for_searchbox"
+            ]
+        },
+        "section_context_menus_settings": {
+            "type": "section",
+            "title": "Context menus settings",
+            "keys": [
+                "pref_show_icons_on_context",
+                "pref_hide_add_to_panel_on_context",
+                "pref_hide_add_to_desktop_on_context",
+                "pref_hide_uninstall_on_context",
+                "pref_show_run_from_terminal_on_context",
+                "pref_show_run_from_terminal_as_root_on_context",
+                "pref_show_run_as_root_on_context",
+                "pref_show_desktop_file_folder_on_context",
+                "pref_show_edit_desktop_file_on_context",
+                "pref_gain_privileges_on_context",
+                "pref_custom_editor_for_edit_desktop_file_on_context"
+            ]
+        },
+        "section_recently_used_applications_settings": {
+            "type": "section",
+            "title": "Recently used applications settings",
+            "keys": [
+                "pref_remember_recently_used_apps",
+                "pref_recent_apps_ignore_favorites",
+                "pref_recently_used_apps_separator",
+                "pref_recently_used_apps_invert_order",
+                "pref_recently_used_apps_custom_icon",
+                "pref_max_recently_used_apps"
+            ]
+        },
+        "section_custom_launchers_000": {
+            "type": "section",
+            "title": "Custom launchers settings",
+            "keys": [
+                "pref_custom_launchers_box_placement",
+                "pref_custom_commands_box_alignment"
+            ]
+        },
+        "section_custom_launchers_000_bis": {
+            "type": "section",
+            "title": "Custom launchers notes",
+            "keys": [
+                "custom_launchers_label"
+            ]
+        },
+        "section_custom_launchers_001": {
+            "type": "section",
+            "title": "Custom launcher 1",
+            "keys": [
+                "pref_command_1_label",
+                "pref_command_1_command",
+                "pref_command_1_icon",
+                "pref_command_1_description"
+            ]
+        },
+        "section_custom_launchers_002": {
+            "type": "section",
+            "title": "Custom launcher 2",
+            "keys": [
+                "pref_command_2_label",
+                "pref_command_2_command",
+                "pref_command_2_icon",
+                "pref_command_2_description"
+            ]
+        },
+        "section_custom_launchers_003": {
+            "type": "section",
+            "title": "Custom launcher 3",
+            "keys": [
+                "pref_command_3_label",
+                "pref_command_3_command",
+                "pref_command_3_icon",
+                "pref_command_3_description"
+            ]
+        },
+        "section_custom_launchers_004": {
+            "type": "section",
+            "title": "Custom launcher 4",
+            "keys": [
+                "pref_command_4_label",
+                "pref_command_4_command",
+                "pref_command_4_icon",
+                "pref_command_4_description"
+            ]
+        },
+        "section_custom_launchers_005": {
+            "type": "section",
+            "title": "Custom launcher 5",
+            "keys": [
+                "pref_command_5_label",
+                "pref_command_5_command",
+                "pref_command_5_icon",
+                "pref_command_5_description"
+            ]
+        },
+        "section_custom_launchers_006": {
+            "type": "section",
+            "title": "Custom launcher 6",
+            "keys": [
+                "pref_command_6_label",
+                "pref_command_6_command",
+                "pref_command_6_icon",
+                "pref_command_6_description"
+            ]
+        },
+        "section_custom_launchers_007": {
+            "type": "section",
+            "title": "Custom launcher 7",
+            "keys": [
+                "pref_command_7_label",
+                "pref_command_7_command",
+                "pref_command_7_icon",
+                "pref_command_7_description"
+            ]
+        },
+        "section_custom_launchers_008": {
+            "type": "section",
+            "title": "Custom launcher 8",
+            "keys": [
+                "pref_command_8_label",
+                "pref_command_8_command",
+                "pref_command_8_icon",
+                "pref_command_8_description"
+            ]
+        },
+        "section_custom_launchers_009": {
+            "type": "section",
+            "title": "Custom launcher 9",
+            "keys": [
+                "pref_command_9_label",
+                "pref_command_9_command",
+                "pref_command_9_icon",
+                "pref_command_9_description"
+            ]
+        },
+        "section_custom_launchers_010": {
+            "type": "section",
+            "title": "Custom launcher 10",
+            "keys": [
+                "pref_command_10_label",
+                "pref_command_10_command",
+                "pref_command_10_icon",
+                "pref_command_10_description"
+            ]
+        },
+        "section_appearance_icon_sizes": {
+            "type": "section",
+            "title": "Icon sizes",
+            "keys": [
+                "pref_max_width_for_buttons",
+                "pref_max_fav_icon_size",
+                "pref_category_icon_size",
+                "pref_application_icon_size",
+                "pref_custom_command_icon_size"
+            ]
+        },
+        "section_appearance_favorites_box": {
+            "type": "section",
+            "title": "Favorites box",
+            "keys": [
+                "pref_separator_heigth"
+            ]
+        },
+        "section_appearance_boxes_padding": {
+            "type": "section",
+            "title": "Note: Most themes stylesheets come with hardcoded sizes for certain elemets.\nThis section is for overriding those stylesheets.",
+            "keys": [
+                "pref_set_categories_padding",
+                "pref_categories_box_padding_top",
+                "pref_categories_box_padding_right",
+                "pref_categories_box_padding_bottom",
+                "pref_categories_box_padding_left",
+                "pref_set_search_entry_padding",
+                "pref_search_entry_padding_top",
+                "pref_search_entry_padding_right",
+                "pref_search_entry_padding_bottom",
+                "pref_search_entry_padding_left",
+                "save_settings_button",
+                "pref_set_search_box_padding",
+                "pref_search_box_padding_top",
+                "pref_search_box_padding_right",
+                "pref_search_box_padding_bottom",
+                "pref_search_box_padding_left",
+                "pref_set_custom_box_padding",
+                "pref_custom_command_box_padding_top",
+                "pref_custom_command_box_padding_right",
+                "pref_custom_command_box_padding_bottom",
+                "pref_custom_command_box_padding_left"
+            ]
+        },
+        "section_save_button_full": {
+            "type": "section",
+            "title": "Most settings are not automatically saved when modified.\nPress any of the \"Save settings\" buttons for the settings to take effect.",
+            "keys": [
+                "save_settings_button"
+            ]
+        },
+        "section_save_button_minimal": {
+            "type": "section",
+            "title": "Save settings",
+            "keys": [
+                "save_settings_button"
+            ]
+        }
+    },
+    "pref_overlay_key": {
+        "type": "keybinding",
+        "description": "Keyboard shortcut to open and close the menu",
+        "default": "Super_L::Super_R",
+        "value": "Super_L::Super_R"
+    },
+    "pref_use_a_custom_icon_for_applet": {
+        "type": "switch",
+        "default": false,
+        "description": "Use a custom icon",
+        "tooltip": "Unchecking this allows the theme to set the icon",
+        "value": false
+    },
+    "pref_custom_icon_for_applet": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-start-here-linux-mint-symbolic",
+        "description": "Icon",
+        "tooltip": "Select an icon to show in the panel.",
+        "dependency": "pref_use_a_custom_icon_for_applet",
+        "value": "custom-start-here-linux-mint-symbolic"
+    },
+    "pref_custom_label_for_applet": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "Menu",
+        "description": "Custom label",
+        "tooltip": "Enter custom text to show in the panel.",
+        "value": ""
+    },
+    "pref_open_menu_on_hover": {
+        "type": "switch",
+        "default": false,
+        "description": "Open the menu on mouse over",
+        "tooltip": "Enable opening the menu when the mouse enters the applet.",
+        "value": false
+    },
+    "pref_menu_hover_delay": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 50,
+        "dependency": "pref_open_menu_on_hover",
+        "units": "milliseconds",
+        "description": "Menu hover delay:",
+        "tooltip": "Delay before the menu is opened on entering the applet.",
+        "value": 0
+    },
+    "pref_display_category_icons": {
+        "type": "switch",
+        "default": true,
+        "description": "Show category icons",
+        "tooltip": "Choose whether or not to show icons on categories.",
+        "value": false
+    },
+    "pref_display_application_icons": {
+        "type": "switch",
+        "default": true,
+        "description": "Show application icons",
+        "tooltip": "Choose whether or not to show icons on applications.",
+        "value": true
+    },
+    "pref_display_fav_box": {
+        "type": "switch",
+        "default": true,
+        "description": "Show favorites and quit options",
+        "tooltip": "Choose whether or not to show the left pane of the menu.",
+        "value": false
+    },
+    "pref_show_places": {
+        "type": "switch",
+        "default": true,
+        "description": "Show bookmarks and places",
+        "tooltip": "Choose whether or not to show bookmarks and places in the menu.",
+        "value": true
+    },
+    "pref_show_recents_button": {
+        "type": "switch",
+        "default": true,
+        "description": "Show \"Recent documents\" category",
+        "tooltip": "For people who want the \"Recent documents\" category hidden without disabling recent documents globally.",
+        "value": true
+    },
+    "pref_max_recent_files": {
+        "type": "spinbutton",
+        "default": 20,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "units": "documents",
+        "description": "Max recent documents:",
+        "tooltip": "",
+        "value": 20
+    },
+    "pref_enable_autoscroll": {
+        "type": "switch",
+        "default": true,
+        "description": "Enable auto-scrolling in application list",
+        "tooltip": "Choose whether or not to enable smooth auto-scrolling in the application list.",
+        "value": true
+    },
+    "pref_animate_menu": {
+        "type": "switch",
+        "default": false,
+        "description": "Animate open/close menu",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_apps_info_box_alignment_to_the_left": {
+        "type": "switch",
+        "default": false,
+        "description": "Align application info box text to the left",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_fuzzy_search_enabled": {
+        "type": "switch",
+        "default": false,
+        "description": "Enable fuzzy search (EXPERIMENTAL)",
+        "tooltip": "This option enables an infinitelly better sorting of search results. It's marked as experimental because it has a huge impact on performance every time the search box is cleared.",
+        "value": true
+    },
+    "pref_disable_new_apps_highlighting": {
+        "type": "switch",
+        "default": true,
+        "description": "Disable newly installed applications highlighting",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_hide_allapps_category": {
+        "type": "switch",
+        "default": false,
+        "description": "Hide \"All Applications\" category",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_display_favorites_as_category_menu": {
+        "type": "switch",
+        "dependency": "pref_hide_allapps_category",
+        "default": false,
+        "description": "Display \"Favorites\" as a category menu",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_hide_applications_list_scrollbar": {
+        "type": "switch",
+        "default": false,
+        "description": "Hide applications list scrollbar",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_swap_categories_box": {
+        "type": "switch",
+        "default": false,
+        "description": "Swap categories box",
+        "tooltip": "By default, the categories box is to the left of the applications list. With this option enabled, the categories box will be placed to the right of the applications list.",
+        "value": true
+    },
+    "pref_cat_hover_delay": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 50,
+        "units": "milliseconds",
+        "description": "Category selection delay:",
+        "tooltip": "Delay between switching categories.",
+        "value": 0
+    },
+    "pref_appinfo_display_method": {
+        "type": "combobox",
+        "default": "infobox",
+        "description": "Display method for information about applications:",
+        "options": {
+            "None": "none",
+            "Tooltips": "tooltip",
+            "Info box": "infobox"
+        },
+        "value": "tooltip"
+    },
+    "pref_privilege_elevator": {
+        "type": "combobox",
+        "default": "gksu",
+        "description": "Privileges elevator:",
+        "options": {
+            "gksu": "gksu",
+            "gksudo": "gksudo"
+        },
+        "tooltip": "The graphical front-end to use to run applications as root.\nThis is used by the \"Open as Root\" context menu and the option \"Gain privileges of not owned files\".",
+        "value": "gksu"
+    },
+    "pref_terminal_emulator": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "x-terminal-emulator",
+        "description": "Terminal emulator:",
+        "tooltip": "Choose the terminal emulator used by all launch from terminal options.\nIMPORTANT!!! The terminal emulator has to support the -e argument.",
+        "value": "x-terminal-emulator"
+    },
+    "pref_system_buttons_display": {
+        "type": "combobox",
+        "default": 2,
+        "description": "Where to display the Quit buttons",
+        "options": {
+            "Hide all": 0,
+            "Inside \"Favorites\" box": 1,
+            "Next to Custom launchers box": 2
+        },
+        "value": 2
+    },
+    "pref_show_lock_button": {
+        "type": "switch",
+        "default": true,
+        "description": "Show \"Lock screen\" button",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_lock_button_custom_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-system-lock-screen-symbolic",
+        "description": "Custom icon for \"Lock screen\" button:",
+        "tooltip": "Only valid if the System buttons box is placed next to the Custom launchers box.\nLeave blank to use default.",
+        "value": "custom-system-lock-screen-symbolic"
+    },
+    "pref_show_logout_button": {
+        "type": "switch",
+        "default": true,
+        "description": "Show \"Logout\" button",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_logout_button_custom_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-system-log-out-symbolic",
+        "description": "Custom icon for \"Logout\" button:",
+        "tooltip": "Only valid if the System buttons box is placed next to the Custom launchers box.\nLeave blank to use default.",
+        "value": "custom-system-log-out-symbolic"
+    },
+    "pref_show_shutdown_button": {
+        "type": "switch",
+        "default": true,
+        "description": "Show \"Shutdown\" button",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_shutdown_button_custom_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-system-shutdown-symbolic",
+        "description": "Custom icon for \"Shutdown\" button:",
+        "tooltip": "Only valid if the System buttons box is placed next to the Custom launchers box.\nLeave blank to use default.",
+        "value": "custom-system-shutdown-symbolic"
+    },
+    "pref_search_filesystem": {
+        "type": "switch",
+        "default": false,
+        "description": "Enable file system path entry in search box",
+        "tooltip": "Allows path entry in the menu search box.",
+        "value": false
+    },
+    "pref_search_box_position": {
+        "type": "combobox",
+        "default": 1,
+        "description": "Search box position on menu",
+        "options": {
+            "Hide": 0,
+            "Top of menu": 1,
+            "Bottom of menu": 2
+        },
+        "value": 2
+    },
+    "pref_autofit_searchbox_width": {
+        "type": "switch",
+        "default": false,
+        "description": "Auto-fit the width of the search box with the menu width",
+        "tooltip": "If enabled, Custom width for search box will be ignored. Also, this option is ignored if the custom launchers box is placed at either side of the searchbox.",
+        "value": true
+    },
+    "pref_custom_width_for_searchbox": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 2048,
+        "step": 1,
+        "units": "pixels",
+        "description": "Custom width for search box:",
+        "tooltip": "Set to 0 (zero) for not setting a width.",
+        "value": 0
+    },
+    "pref_show_icons_on_context": {
+        "type": "switch",
+        "default": true,
+        "description": "Show icons on context menu",
+        "value": true
+    },
+    "pref_hide_add_to_panel_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Hide \"Add to panel\"",
+        "value": false
+    },
+    "pref_hide_add_to_desktop_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Hide \"Add to desktop\"",
+        "value": false
+    },
+    "pref_hide_uninstall_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Hide \"Uninstall\"",
+        "value": false
+    },
+    "pref_show_run_from_terminal_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Run from terminal\" on context",
+        "value": false
+    },
+    "pref_show_run_from_terminal_as_root_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Run from terminal as root\" on context",
+        "value": false
+    },
+    "pref_show_run_as_root_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Run as root\" on context",
+        "value": false
+    },
+    "pref_show_desktop_file_folder_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Open .desktop file folder\" on context",
+        "value": false
+    },
+    "pref_show_edit_desktop_file_on_context": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Edit .desktop file\" on context",
+        "tooltip": "It adds to the applications context menu an entry that will allow you to open the current selected application's .desktop file in a text editor.",
+        "value": false
+    },
+    "pref_gain_privileges_on_context": {
+        "type": "switch",
+        "dependency": "pref_show_edit_desktop_file_on_context",
+        "default": false,
+        "description": "Gain privileges of not owned files",
+        "tooltip": "If enabled, this options will open as root .desktop files that aren't owned by the current user.\n\nThis isn't needed for all text editors. Some text editors will allow you to open and edit not owned files and will ask for the root password at the moment of saving the changes.",
+        "value": false
+    },
+    "pref_custom_editor_for_edit_desktop_file_on_context": {
+        "type": "filechooser",
+        "dependency": "pref_show_edit_desktop_file_on_context",
+        "select-dir": false,
+        "default": "",
+        "description": "Custom text editor:",
+        "tooltip": "Set a custom text editor to open .desktop files (just the name of the text editor executable or the path to it).\nLeave it blank to let the system decide.",
+        "value": ""
+    },
+    "pref_remember_recently_used_apps": {
+        "type": "switch",
+        "default": false,
+        "description": "Show \"Recent Applications\" category",
+        "tooltip": "From the moment this option is enabled, every application launched from the menu will be stored and displayed in the \"Recent Applications\" category.\nEvery time this option is disabled, the list of recently used applications will be cleared.",
+        "value": false
+    },
+    "pref_recent_apps_ignore_favorites": {
+        "type": "switch",
+        "default": false,
+        "dependency": "pref_remember_recently_used_apps",
+        "description": "Ignore Favorites",
+        "tooltip": "If enabled, applications set as Favorite will not be stored in the \"Recent Applications\" category.",
+        "value": false
+    },
+    "pref_recently_used_apps_separator": {
+        "type": "switch",
+        "default": false,
+        "dependency": "pref_remember_recently_used_apps",
+        "description": "Display separator after \"Recent Applications\" category (WARNING)",
+        "tooltip": "This option, when enabled, will break the menu keyboard navigation. Only enable this option if you will never use the keyboard to navigate the menu.\nThis message is only temporary until I figure out how to fix this.",
+        "value": false
+    },
+    "pref_recently_used_apps_invert_order": {
+        "type": "switch",
+        "default": false,
+        "dependency": "pref_remember_recently_used_apps",
+        "description": "Invert recently used applications order",
+        "tooltip": "By default, the most recently used application is at the top of the list. With this option enabled, the most recently used application will be at the bottom of the list.",
+        "value": false
+    },
+    "pref_recently_used_apps_custom_icon": {
+        "type": "entry",
+        "expand-width": true,
+        "dependency": "pref_remember_recently_used_apps",
+        "default": "folder-recent",
+        "description": "Custom icon for category",
+        "tooltip": "Enter custom icon for the \"Recent Applications\" category.\nOnly icon names are allowed.",
+        "value": "folder-recent"
+    },
+    "pref_max_recently_used_apps": {
+        "type": "spinbutton",
+        "dependency": "pref_remember_recently_used_apps",
+        "default": 20,
+        "min": 5,
+        "max": 100,
+        "step": 1,
+        "units": "applications",
+        "description": "Max recently used apps:",
+        "tooltip": "",
+        "value": 20
+    },
+    "pref_recently_used_apps": {
+        "type": "generic",
+        "default": [],
+        "value": []
+    },
+    "pref_custom_launchers_box_placement": {
+        "type": "combobox",
+        "default": 4,
+        "description": "Custom launchers box placement",
+        "options": {
+            "Disabled": 0,
+            "Left of search box": 1,
+            "Right of search box": 2,
+            "At the top of menu": 3,
+            "At the bottom of menu": 4
+        },
+        "value": 2
+    },
+    "pref_custom_commands_box_alignment": {
+        "type": "combobox",
+        "default": 2,
+        "description": "Alignment of buttons inside the custom launchers box",
+        "options": {
+            "Left": 0,
+            "Middle": 1,
+            "Right": 2
+        },
+        "value": 2
+    },
+    "custom_launchers_label": {
+        "type": "label",
+        "description": "Fields marked with asterisks (*) are mandatory. Otherwise, the button will not appear on the menu.\nIcons can be any icon name or path to an icon file (symbolic or full color).\nCommands can be any command (as entered in a terminal) or a path to a file.\nIf the file is an executable script, an attempt to execute it will be made.\nOtherwise, the file will be opened with the systems handler for that file type."
+    },
+    "pref_command_1_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "System Settings",
+        "description": "Label:",
+        "value": "System Settings"
+    },
+    "pref_command_1_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "cinnamon-settings",
+        "description": "*Command or path to file:",
+        "value": "cinnamon-settings"
+    },
+    "pref_command_1_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-preferences-system-symbolic",
+        "description": "*Icon:",
+        "value": "custom-preferences-system-symbolic"
+    },
+    "pref_command_1_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "System Settings",
+        "description": "Description:",
+        "value": "System Settings"
+    },
+    "pref_command_2_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "Mint updates manager",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_2_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "mintupdate",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_2_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-security-high-symbolic",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_2_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "Mint updates manager",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_3_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "Printers",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_3_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "system-config-printer",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_3_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-printer-symbolic",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_3_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "Printers",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_4_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "System Information",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_4_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "cinnamon-settings info",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_4_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "custom-dialog-information-symbolic",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_4_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "System Information",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_5_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_5_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_5_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_5_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_6_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_6_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_6_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_6_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_7_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_7_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_7_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_7_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_8_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_8_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_8_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_8_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_9_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_9_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_9_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_9_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_command_10_label": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Label:",
+        "value": ""
+    },
+    "pref_command_10_command": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "*Command or path to file:",
+        "value": ""
+    },
+    "pref_command_10_icon": {
+        "type": "iconfilechooser",
+        "expand-width": true,
+        "default": "",
+        "description": "*Icon:",
+        "value": ""
+    },
+    "pref_command_10_description": {
+        "type": "entry",
+        "expand-width": true,
+        "default": "",
+        "description": "Description:",
+        "value": ""
+    },
+    "pref_max_width_for_buttons": {
+        "type": "spinbutton",
+        "default": 20,
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "units": "ems",
+        "description": "Maximum button width:",
+        "tooltip": "Define the maximum width of menu items inside the applications box.",
+        "value": 20
+    },
+    "pref_max_fav_icon_size": {
+        "type": "spinbutton",
+        "default": 22,
+        "min": 16,
+        "max": 256,
+        "step": 2,
+        "units": "pixels",
+        "description": "Favorites icon size:",
+        "tooltip": "",
+        "value": 32
+    },
+    "pref_category_icon_size": {
+        "type": "spinbutton",
+        "default": 22,
+        "min": 16,
+        "max": 256,
+        "step": 2,
+        "units": "pixels",
+        "description": "Categories icon size:",
+        "tooltip": "",
+        "value": 22
+    },
+    "pref_application_icon_size": {
+        "type": "spinbutton",
+        "default": 22,
+        "min": 16,
+        "max": 256,
+        "step": 2,
+        "units": "pixels",
+        "description": "Applications icon size:",
+        "tooltip": "",
+        "value": 32
+    },
+    "pref_custom_command_icon_size": {
+        "type": "spinbutton",
+        "default": 22,
+        "min": 16,
+        "max": 256,
+        "step": 2,
+        "units": "pixels",
+        "description": "Custom launchers icon size:",
+        "tooltip": "",
+        "value": 22
+    },
+    "pref_separator_heigth": {
+        "type": "spinbutton",
+        "default": 0,
+        "min": 0,
+        "max": 1000,
+        "step": 10,
+        "units": "pixels",
+        "description": "Favorites box separator height:",
+        "tooltip": "Size of separator between \"Favorites\" box and \"Quit\" box.",
+        "value": 0
+    },
+    "pref_set_categories_padding": {
+        "type": "switch",
+        "default": false,
+        "description": "Set a custom padding for the Categories box",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_categories_box_padding_top": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_categories_padding",
+        "units": "pixels",
+        "description": "Box top padding:",
+        "tooltip": "",
+        "value": 30
+    },
+    "pref_categories_box_padding_right": {
+        "type": "spinbutton",
+        "default": 30,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_categories_padding",
+        "units": "pixels",
+        "description": "Box right padding:",
+        "tooltip": "",
+        "value": 30
+    },
+    "pref_categories_box_padding_bottom": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_categories_padding",
+        "units": "pixels",
+        "description": "Box bottom padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_categories_box_padding_left": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_categories_padding",
+        "units": "pixels",
+        "description": "Box left padding:",
+        "tooltip": "",
+        "value": 10
+    },
+    "pref_set_search_entry_padding": {
+        "type": "switch",
+        "default": false,
+        "description": "Set a custom padding for the search entry box",
+        "tooltip": "",
+        "value": true
+    },
+    "pref_search_entry_padding_top": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_entry_padding",
+        "units": "pixels",
+        "description": "Box top padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_search_entry_padding_right": {
+        "type": "spinbutton",
+        "default": 30,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_entry_padding",
+        "units": "pixels",
+        "description": "Box right padding:",
+        "tooltip": "",
+        "value": 30
+    },
+    "pref_search_entry_padding_bottom": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_entry_padding",
+        "units": "pixels",
+        "description": "Box bottom padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_search_entry_padding_left": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_entry_padding",
+        "units": "pixels",
+        "description": "Box left padding:",
+        "tooltip": "",
+        "value": 10
+    },
+    "pref_set_search_box_padding": {
+        "type": "switch",
+        "default": false,
+        "description": "Set a custom padding for the search box",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_search_box_padding_top": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_box_padding",
+        "units": "pixels",
+        "description": "Box top padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_search_box_padding_right": {
+        "type": "spinbutton",
+        "default": 30,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_box_padding",
+        "units": "pixels",
+        "description": "Box right padding:",
+        "tooltip": "",
+        "value": 30
+    },
+    "pref_search_box_padding_bottom": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_box_padding",
+        "units": "pixels",
+        "description": "Box bottom padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_search_box_padding_left": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_search_box_padding",
+        "units": "pixels",
+        "description": "Box left padding:",
+        "tooltip": "",
+        "value": 10
+    },
+    "pref_set_custom_box_padding": {
+        "type": "switch",
+        "default": false,
+        "description": "Set a custom padding for the Custom launchers box",
+        "tooltip": "",
+        "value": false
+    },
+    "pref_custom_command_box_padding_top": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_custom_box_padding",
+        "units": "pixels",
+        "description": "Box top padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_custom_command_box_padding_right": {
+        "type": "spinbutton",
+        "default": 30,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_custom_box_padding",
+        "units": "pixels",
+        "description": "Box right padding:",
+        "tooltip": "",
+        "value": 30
+    },
+    "pref_custom_command_box_padding_bottom": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_custom_box_padding",
+        "units": "pixels",
+        "description": "Box bottom padding:",
+        "tooltip": "",
+        "value": 5
+    },
+    "pref_custom_command_box_padding_left": {
+        "type": "spinbutton",
+        "default": 10,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dependency": "pref_set_custom_box_padding",
+        "units": "pixels",
+        "description": "Box left padding:",
+        "tooltip": "",
+        "value": 10
+    },
+    "save_settings_button": {
+        "type": "button",
+        "description": "Save settings",
+        "callback": "_hardRefreshAll"
+    },
+    "global_separator": {
+        "type": "separator"
+    },
+    "__md5__": "66ff587495c8dd2b634d4d736f4f4214"
+}
