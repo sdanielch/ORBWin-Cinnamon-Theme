@@ -83,25 +83,21 @@ StScrollBar StButton#vhandle:hover {
 .notification-button, .notification-icon-button,
 .modal-dialog-button {
 	color: white;
-	border: 1px solid #8b8b8b;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(255, 255, 255, 0.2);
-	background-gradient-end: rgba(255, 255, 255, 0);
+	border: 1px solid #181818;
+	background: rgba(10, 10, 10, 0.6);
 }
 .notification-button:hover,
 .notification-icon-button:hover, .modal-dialog-button:hover {
-	background-gradient-start: rgba(255, 255, 255, 0.3);
-	background-gradient-end: rgba(255, 255, 255, 0.1);
+	background: rgba(10, 10, 10, 0.8);
 }
 .notification-button:focus,
 .notification-icon-button:focus,
 .modal-dialog-button:focus {
-	border: 2px solid #8b8b8b;
+	border: 1px solid #181818;
 }
 .notification-button:active, .notification-icon-button:active,
 .modal-dialog-button:active, .modal-dialog-button:pressed {
-	background-gradient-start: rgba(255, 255, 255, 0);
-	background-gradient-end: rgba(255, 255, 255, 0.2);
+	background: rgba(10, 10, 10, 0.6);
 }
 /* ===================================================================
  * PopupMenu (popupMenu.js)
@@ -611,10 +607,9 @@ StScrollBar StButton#vhandle:hover {
 #notification {
 	font-size: 8.5pt;
 	border-radius: 8px 8px 8px 8px;
-	border: 2px solid #a5a5a5;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(85,85,85,0.8);
-	background-gradient-end: rgba(85,85,85,0.8);
+	border: 1px solid #181818;
+	background: rgba(10,10,10,0.8);
+
 	padding: 8px 8px 8px 8px;
 	spacing-rows: 10px;
 	spacing-columns: 10px;
@@ -672,12 +667,10 @@ StScrollBar StButton#vhandle:hover {
 #notification StEntry {
 	padding: 4px;
 	border-radius: 4px;
-	color: #a8a8a8;
+	color: #CDCDCD;
 	selected-color: black;
 	border: 1px solid rgba(245,245,245,0.2);
-	background-gradient-direction: vertical;
-	background-gradient-start: rgb(200,200,200);
-	background-gradient-end: white;
+	background: rgba(10,10,10,0.6);
 	transition-duration: 300;
 	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
 	caret-color: #a8a8a8;
@@ -685,10 +678,9 @@ StScrollBar StButton#vhandle:hover {
 }
 #notification StEntry:focus {
 	border: 1px solid #8b8b8b;
-	color: #333333;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgb(200,200,200);
-	background-gradient-end: white;
+	color: #CDCDCD;
+		background: rgba(10,10,10,0.85);
+
 	caret-color: #545454;
 	selection-background-color: #808080;
 }
@@ -1512,8 +1504,9 @@ StScrollBar StButton#vhandle:hover {
 
 /* ZONA DE MODIFICACIONES DEL TEMA ORIGINAL DE CINNAMON */
 #panel {
-	background: transparent;
-	border-image:url("resources/bar75.png"); /* Fondo de la barra */
+	background: rgba(10,10,10,0.75);
+	border-top: 1px #181818 solid;
+	/* border-image:url("resources/bar75.png"); /* Fondo de la barra */
 	height: 30px; /* Tamaño de la barra */
 }
 /* VENTANAS */
@@ -1622,7 +1615,7 @@ border-right: 1px #0000FF solid;
 .menu-application-button {
 	padding-top: 7px;	padding-left: 7px;
 	padding-right: 7px;	padding-bottom: 7px;
-	color: #181818;
+	color: #EFEFEF;
 }
 .menu-application-button:last-child {
 	color: #EFEFEF;
@@ -1749,7 +1742,7 @@ background: transparent;
 }
 
 .popup-menu-content {
-	background: rgba(0,0,0,0.0);
+	background: rgba(80,0,0,0.0);
 	border: 0px #F00 solid;
 }
 .menu {
@@ -1794,5 +1787,47 @@ StScrollBar StButton#hhandle {
 StScrollBar StButton#hhandle:hover,
 StScrollBar StButton#vhandle:hover {
 	background-color: rgba(240,240,240,0.8);
+}
 
+.menu-application-button {
+color: #FFFFFF;
+}
+.menu-favorites-box {
+background: transparent;
+color: #EFEFEF;
+border-radius: 30px;
+}
+.menu-favorites-button {
+background: transparent;
+}
+.menu-favorites-button:hover {
+background: rgb(0, 84, 227);
+}
+.menu-application-button-label:last-child {
+font-size: 0.8em;
+color: rgba(240,240,240,0.4);
+}
+.menu-swap-button-windows7 {
+font-size: 0.8em;
+}
+.menu-swap-button-windows7:hover, .menu-swap-button-windows7:active {
+font-size: 0.8em;
+}
+.menu-swap-button-windows7 img {
+display: none;
+}
+
+.osd-window {
+	background: rgba(10,10,10,0.85);
+	border: 1px solid #181818;
+	box-shadow: 0 0 20px #000;
+}
+
+.switcher-list {
+	background: rgba(10,10,10,0.85);
+	border: 1px solid #181818;
+}
+
+notification {
+	background: #39f;
 }
