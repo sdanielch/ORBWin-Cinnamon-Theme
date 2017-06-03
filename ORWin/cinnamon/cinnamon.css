@@ -1504,9 +1504,9 @@ StScrollBar StButton#vhandle:hover {
 
 /* ZONA DE MODIFICACIONES DEL TEMA ORIGINAL DE CINNAMON */
 #panel {
-	background: rgba(10,10,10,0.75);
+	background: rgba(5,5,5,0.85);
 	border-top: 1px #181818 solid;
-	 border-image:url("resources/bar75.png"); /* Fondo de la barra */
+	border-image:url("resources/bar90.png"); /* Fondo de la barra */
 	height: 30px; /* Tamaño de la barra */
 }
 /* VENTANAS */
