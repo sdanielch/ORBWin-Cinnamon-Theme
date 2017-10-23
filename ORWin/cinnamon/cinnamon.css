@@ -3,7 +3,8 @@
  * ... contains a few cinnamon specific styles (rare occurrences)
  * ###################################################################*/
 stage {
-	font-family: 'Segoe UI', sans, sans-serif;
+	font-family: Ubuntu Regular, 'Segoe UI', sans, sans-serif;
+	font-size: 12px;
 }
 .cinnamon-link {
 	color: #0000ff;
@@ -1506,7 +1507,7 @@ StScrollBar StButton#vhandle:hover {
 #panel {
 	background: rgba(5,5,5,0.85);
 	border-top: 1px #181818 solid;
-	border-image:url("resources/bar90.png"); /* Fondo de la barra */
+	/* border-image:url("resources/bar90.png"); /* Fondo de la barra */
 	height: 30px; /* Tamaño de la barra */
 }
 /* VENTANAS */
@@ -1621,21 +1622,24 @@ notification {
 .menu {
 	background: transparent;
 	color: #FFF;
-	border: 0px rgba(0,0,0,0.75) solid;
+	border: 0px rgba(0,0,0,0.95) solid;
 }
 .menu-favorites-box {
-	background: #EFEFEF;
-	color: #282828;
+	background: transparent;
+	border: 1px #444 solid;
+	border-radius: 4px;
+
 }
 .menu-favorites-button {
 	background: transparent;
 }
 .menu-favorites-button:hover {
-	background: #39f;
+	background: rgba(155,155,155,0.5);
 	color: #FFF;
+	cursor: pointer;
 }
 #menu-search-entry {
 	background: transparent;
-	color: #000;
+	color: #FFF;
 	padding: 10px;
 }
